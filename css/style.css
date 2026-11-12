@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    padding:  25px;
+}
+h2 {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+ul, ol, .main {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: justify;
+}
+img {
+    border-radius: 20px;
+    border: 5px;
+    box-shadow: inset;
+    text-align: center;
+}
+.text{
+    text-align: justify;
+} 
+
+h1{
+    text-align: center;
+}
+
+.photo{
+    text-align: center;
+}
+
+.main {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+/* a:link {
+    color: yellowgreen;
+}
+a:visited {
+    color: navy;
+}
+a:focus {
+    color: green;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: darkblue;
+} */
+
+header a {
+    color: blue;
+    text-decoration: none;
+}
+header a:hover,
+header a:focus,
+header a:active {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+/* .articles li:first-child {
+    background-color: peachpuff;
+}
+.articles li:nth-child(even) {
+    background-color: cadetblue;
+} */
+/* h2::after {
+    content: "new";
+    font-size: 10px;
+    color: darkviolet;
+    margin-left: 10px;
+}
+
+h2::before {
+    content: "\F626";
+    font-family: "bootstrap-icons";
+    margin-right: 20px;
+} */
+
